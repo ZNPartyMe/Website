@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PartyMe</title>
+		<style type="text/css">
+/*Alignment*/
+			.align {
+				display: inline;
+				padding: .5em;}
+
+			.picture {
+				height: 17em;
+				margin-bottom: 1em;
+				text-align: center;
+			}
+
+			.Columns {
+				width: 44%;
+				float: left;
+				margin: 2%;
+			}
+
+
+
+/*Margin*/
+			.marginParty {
+				margin-left: 49%;
+			}
+
+			.marginPM {
+				margin-left: 1em;
+			}
+			
+/*Color*/
+			.BG, .picture {
+				background-color:#efefef;
+				padding: .5em;
+				margin-top: 2em;
+
+			}
+
+			.lightblue {
+				color: #287EED;
+			}
+
+/*Other*/
+
+			body {
+				width:90%;
+				margin: 0 auto;
+			}
+			.size {
+				font-size: 2em;
+			}
+
+
+
+		</style>
+	</head>
+	<body>
+		<div class="BG">
+		<h1 class="marginPM lightblue size">PartyME</h1>
+			<ul>
+				<li class="align marginParty"><a href="">Party</a></li>
+				<li class="align"><a href="">Gaming</a></li>
+				<li class="align"><a href="">Events</a></li>
+				<li class="align"><a href="">Sign in</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<div id="Picture">
+				<p class="picture">Place for Picture</p>
+			</div>
+			<div class="Columns picture">
+				<p>Column 1</p>
+			</div>
+			<div class="Columns picture">
+				<p>Column 2</p>
+			</div>
+	</body>
+</html>
+
