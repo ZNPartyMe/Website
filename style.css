@@ -4,25 +4,34 @@
 
 			}
 
-			.mainpicture {
-				height: 12em;
-				margin-bottom: 1em;
-				text-align: center;
+
+			.form {
+				width: 20%;
+				float: left;
+				display: inline;
 			}
+
+	
+
+			.bannertext {
+				margin-top: -30px;
+			}
+
 
 			.Column1 {
-				width: 60%;
+				width: 40%;
 				float: left;
-				margin: 2%;
-				height: 17em;
+				margin-left: 90px;
+				padding-top: 43px;
 				margin-bottom: 1em;
 				text-align: center;
 			}
 
-			.Column2 {
-				width: 30%;
+			.column2 {
+				width: 40%;
 				float: left;
-				margin: 2%;
+				padding-left: 83px;
+				padding-top: 59px;
 				height: 17em;
 				margin-bottom: 1em;
 				text-align: center;
@@ -79,24 +88,30 @@
 				background-image: url("webpat/sgp2.jpeg");
 			}
 
-			.mainpicture {
-				background-image: url("webpics/budsfun.jpeg");
+			.banner {
+				background-color: #656967;
+				height: 23em;
+				width: 100%;
 			}
 /*Other*/
 
 			body {
-				width:80%;
-				margin: 0 auto;
+				width:100%;
+				margin: 0;
 				background-color: #5E3119;
 			}
 			.size {
 				font-size: 4em;
 			}
 			.size2 {
-				font-size: 1em;
+				font-size: 3.5em;
 
 			}
-
-
+			.size3 {
+				font-size: 1.5em;
+			}
+			h1 {
+				font-size: 3em;
+			}
 
 
