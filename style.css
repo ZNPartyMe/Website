@@ -1,55 +1,102 @@
 /*Alignment*/
 			.align {
 				display: inline;
-				padding: .5em;}
 
-			.picture {
+			}
+
+			.mainpicture {
+				height: 12em;
+				margin-bottom: 1em;
+				text-align: center;
+			}
+
+			.Column1 {
+				width: 60%;
+				float: left;
+				margin: 2%;
 				height: 17em;
 				margin-bottom: 1em;
 				text-align: center;
 			}
 
-			.Columns {
-				width: 44%;
+			.Column2 {
+				width: 30%;
 				float: left;
 				margin: 2%;
-				background: red;
+				height: 17em;
+				margin-bottom: 1em;
+				text-align: center;
 			}
 
-			body {
-				background: red;
+			.footer {
+				text-align: center;
+				width: 100%;
+				float: left;
+				margin: 0 auto;
 			}
+
+
 			
 
 
 
 /*Margin*/
 			.marginParty {
-				margin-left: 49%;
+				margin-left: 0 auto;
 			}
 
+
 			.marginPM {
-				margin-left: 1em;
+				margin-left: .25em;
+				margin-top: .25em;
+			}
+
+			.marginele {
+				margin-left: 10%;
+				text-align: center;
+			}
+
+			.marginsign {
+				margin-right: 5%;
 			}
 			
 /*Color*/
-			.BG, .picture {
+			.BG {
 				background-color:#efefef;
-				padding: .5em;
-				margin-top: 2em;
+				padding: 0 auto;
+				margin-top: 0 auto;
 
 			}
+
 
 			.lightblue {
 				color: #287EED;
 			}
 
+/* Images */
+
+			.headerbackgroundimage {
+				background-image: url("webpat/sgp2.jpeg");
+			}
+
+			.mainpicture {
+				background-image: url("webpics/budsfun.jpeg");
+			}
 /*Other*/
 
 			body {
-				width:90%;
+				width:80%;
 				margin: 0 auto;
+				background-color: #5E3119;
 			}
 			.size {
-				font-size: 2em;
+				font-size: 4em;
 			}
+			.size2 {
+				font-size: 1em;
+
+			}
+
+
+
+
