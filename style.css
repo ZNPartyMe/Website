@@ -11,7 +11,9 @@
 				display: inline;
 			}
 
-	
+			.changecol {
+				color: #ffffff;
+			}
 
 			.bannertext {
 				margin-top: -30px;
@@ -31,7 +33,7 @@
 				width: 40%;
 				float: left;
 				padding-left: 83px;
-				padding-top: 59px;
+				padding-top: 46px;
 				height: 17em;
 				margin-bottom: 1em;
 				text-align: center;
@@ -42,6 +44,15 @@
 				width: 100%;
 				float: left;
 				margin: 0 auto;
+			}
+
+			.inputspacingUN {
+				padding-top: 0px;
+				padding-bottom: 6px;
+			}
+
+			.loginbutton {
+				padding-top: 19px;
 			}
 
 
@@ -89,8 +100,8 @@
 			}
 
 			.banner {
-				background-color: #656967;
-				height: 23em;
+				background-color: #181818;
+				height: 25em;
 				width: 100%;
 			}
 /*Other*/
@@ -112,6 +123,25 @@
 			}
 			h1 {
 				font-size: 3em;
+			}
+
+			h2 {
+				font-size: 1.9em;
+				color: #ffffff;
+			}
+
+			.input1 {
+				border-radius: 5px;
+				font-size: 1em;
+				height: 2em;
+
+			}
+
+			.iinput2 {
+				font-size: 20px;
+				height: 6em;
+
+
 			}
 
 
