@@ -21,20 +21,21 @@
 
 
 			.Column1 {
-				width: 40%;
+				width: 400px;
 				float: left;
-				margin-left: 90px;
+				margin-left: 8%;
 				padding-top: 43px;
 				margin-bottom: 1em;
 				text-align: center;
 			}
 
 			.column2 {
-				width: 40%;
+				width: 300px;
 				float: left;
-				padding-left: 83px;
+				padding-left: 180px;
 				padding-top: 46px;
 				height: 17em;
+				margin-right: 8%;
 				margin-bottom: 1em;
 				text-align: center;
 			}
@@ -123,6 +124,12 @@
 			}
 			h1 {
 				font-size: 3em;
+			}
+
+			h1, p {
+				min-width: 500px;
+				max-width: 500px;
+				overflow: auto;
 			}
 
 			h2 {
